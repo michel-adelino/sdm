@@ -21,9 +21,9 @@ In other words, all ready to work on your next project.
 
 With `sdm` you'll spend a lot less time rebuilding SSDs/SD Cards, configuring your system, and installing packages, and more time on the things you really want to do with your Pi.
 
-Have questions about sdm? Please don't hesitate to ask in the Issues section of this github. If you don't have a github account (so can't post an issue/question here), please feel free to email me at: [gitbls@outlook.com](mailto:gitbls@outlook.com).
+Have questions about sdm? Please don't hesitate to ask in the Issues section of this GitHub repository.
 
-If you find sdm useful, please consider starring it to help me understand how many people are using it. Thanks!
+If you find sdm useful, please consider starring the repository. Thanks!
 
 ## Usage overview
 
@@ -120,7 +120,7 @@ Here are a few examples:
 
 * **Enable Pi-specific devices** &mdash; Easily enable camera, i2c, etc, via raspi-config automation. See <a href="Docs/Plugins.md#raspiconfig">raspiconfig plugin </a>.
 
-* **Personal customizations** &mdash; Have every system come up running with your own customizations such as your favorite .bashrc and any other files that you always want on your system. This can be done easily using <a href="Docs/Plugins.md#copyfile">the `copyfile` plugin</a> or with a personal Plugin. See <a href="Docs/Example-Plugin.md">my personal plugin</a> for an example.
+* **Personal customizations** &mdash; Have every system come up running with your own customizations such as your favorite .bashrc and any other files that you always want on your system. This can be done easily using <a href="Docs/Plugins.md#copyfile">the `copyfile` plugin</a> or with a custom Plugin. See <a href="Docs/Example-Plugin.md">the example plugin</a> for details.
 
 * **Append Custom fstab file to /etc/fstab** &mdash; Automatically append your site-specific fstab entries to /etc/fstab. See <a href="Docs/Plugins.md#system">system plugin for details</a>.
 
@@ -145,5 +145,3 @@ Here are a few examples:
 Need more details? You'll find complete details about sdm in the <a href="Docs/Index.md">online documentation</a> and plugin-specific documentation <a href="Docs/Plugins.md">here.</a>
 
 You can watch sdm in action <a href="https://youtu.be/f8SXAnBAuJk">here</a> It will give you a good idea of how sdm works and what you can do with it.
-
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/gitbls/sdm)
